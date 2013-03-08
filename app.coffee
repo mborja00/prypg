@@ -1,0 +1,4 @@
+/**
+ * Aplicación de prueba
+ */
+
