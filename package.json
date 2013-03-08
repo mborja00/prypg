@@ -1,14 +1,18 @@
 {
-  "name": "application-name",
+  "author":"Manuel Borja",
+  "name": "app_examples",
+  "description" : "Pruebas con nodejs,express, jade, coffe script y mongoskin",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node app"
   },
   "dependencies": {
-    "express": "3.1.0",
+    "express": "*",
     "jade": "*",
-    "coffee-script":"*",
-    "mongoskin":"*"
+    "coffee-script": "*",
+    "mongoskin": "*",
+    "eco":"*",
+    "consolidate":"*"
   }
 }
