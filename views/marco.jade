@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= "Marco Lógico proyecto ProGobernabilidad"
+  for m in ml
+    div(id=m.ml.codigo,class=m.ml.tipo) #{m.ml.descripcion}
+  else
+    div Sin datos
+
+#  # - var tit = pars[0]
+#  # div#{tit.titulo}
+#  #  =tit.descripcion
+#  #  "dentro del div"
+    

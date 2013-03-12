@@ -1,8 +1,49 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
 a {
   color: #00B7FF;
 }
+
+body{
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+div{
+border:2px solid;
+border-radius:18px;
+-moz-border-radius:18px; /* Old Firefox */
+box-shadow: 10px 10px 5px #888888;
+margin:5px 10px 10px 0px;
+outline-width: 50px;
+padding:10px;
+}
+.tipo_F {
+    font-size:1.4em;
+	background-color:red;
+	color:white;
+	align:center;
+	text-align:center;
+	height:125px;}
+.tipo_I {
+    clear:both;
+    font-size:1.2em;
+	background-color:#334C80;
+	color:white;
+	text-align:center;
+	height:125px;}
+.tipo_M {
+	clear:both;
+    font-size:1em;
+	background-color:#004C1A;
+	color:white;
+	text-align:center;
+	height:120px;}
+.tipo_P {
+    float:left;
+    font-size:0.8em;
+	font-style:oblique;
+	font-weight:bold;
+	background-color:white;
+	color:black;
+	text-align:center;
+	text-align:justify;
+	width:47%;
+	height:150px;}
