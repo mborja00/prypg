@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= "Nueva Tarea"
+
+    form(method="POST",action="/tarea")
+      p
+        label Código : 
+        input#codigo(name="codigo",type="text")  
+      p
+        label Descripción :
+        input#descripcion(name="descripcion",type="text")
+      p: input(type="submit",value="Grabar")
+
+
+           
